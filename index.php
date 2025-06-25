@@ -12,12 +12,12 @@
 		</script>
 		<title>Solicitud Vacaciones</title>
 	    <meta name="description" content="Formato electrónico para la automatización de la solicitud de Vacaciones." />
-	    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
-	    <link href="images/favicon.png" rel="icon" type="image/png" />
+	    <link href="estilos.css" rel="stylesheet" type="text/css" />
+	    <link href="favicon.png" rel="icon" type="image/png" />
 	</head>
 	<body>
 		<header>
-			<div class="logo"><img src="images/logoCesuver.png" /></div>
+			<div class="logo"><img src="logoCesuver.png" /></div>
 		</header>
 		<div class="contenedor">
 			<form id="frmEmpleado" name="frmEmpleado" onsubmit="ValidaCampo();" action="process.php" method="post">
