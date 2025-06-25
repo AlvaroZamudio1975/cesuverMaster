@@ -1,0 +1,32 @@
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+.logo{text-align: center;}
+.volver{width:10%;margin:auto;padding:10px;}
+h2{
+    /*los titulos van en naranja y centrados*/
+    text-align: center;
+    color: coral;
+}
+.Respuesta{width:35%;margin:auto;}
+.contenedor{margin:10px;}
+.instrucciones{font-size:10pt;color:#FFF;font-weight: bold;margin:10px 0px;}
+.formulario{width:35%;margin:auto;background-color:#67C45E;padding:10px;display: flow-root;}
+.etiqueta{width:30%;color:white;float:left;}
+.campos{width:70%;float:left;}
+.boton{text-align: center;margin:10px;}
+.textbox{width: 68%;height: 25px;}
+footer{font-size:9pt;color:lightgray;text-align: center;position:absolute;bottom:10px;width:100%}
+
+@media only screen and (max-width:640px)
+{
+header{background-color:orange;}
+.logo{width: 100%;text-align: right;}
+.logo img{width: 200px;}
+footer{font-size:8pt;color:orange;}
+.formulario{width:70%;}
+}
