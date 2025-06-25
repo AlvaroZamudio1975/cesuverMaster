@@ -4,7 +4,7 @@
 		<title>Solicitud Vacaciones</title>
 	    <meta name="description" content="Formato electrónico para la automatización de la solicitud de Vacaciones." />
 	    <link href="estilos.css" rel="stylesheet" type="text/css" />
-	    <link href="images/favicon.png" rel="icon" type="image/png" />
+	    <link href="favicon.png" rel="icon" type="image/png" />
 	</head>
 	<body>
 		<header>
